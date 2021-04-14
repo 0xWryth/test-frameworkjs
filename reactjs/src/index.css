@@ -1,0 +1,50 @@
+body{
+  background: #1E1F26;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Calibri, "Open Sans", "Roboto", serif;
+ flex-direction: column;
+  align-items: center;
+}
+
+#app{
+  width: 20%;
+  height: 20vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+span{
+  color: black;
+  text-align: center;
+  background: white;
+  padding: 0.8em 2rem;
+  font-size: 2rem;
+}
+
+.button-group{
+  display: flex;
+  flex: 1;
+  background: white;
+}
+
+button{
+  flex: 1;
+  padding: 1em;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: #FF7975;
+  color: white;
+  cursor: pointer;
+}
+
+button:first-of-type{
+  background: #66A1CD;
+}
