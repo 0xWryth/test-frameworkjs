@@ -36,3 +36,23 @@ cd reactjs
 npm install
 npm run start
 ```
+
+# Svelte
+
+## Avant propos
+
+En 2020, là où les framework ayant déjà acquis une certaine popularité comme React ou Vue sont restées plus ou moins stables,d'autres se sont illustrés dans leur domaine :
+- Angular prouve une année de plus une opinion catastrophique
+- De jeunes framework comme Svelte arrivent à ce faire une bonne place dans le milieu
+
+![](https://i.imgur.com/tRIqAyV.png)
+
+Svelte a la particularité a contrario de React ou de Vue de ne pas se reposer sur de la Dom Virtuelle, ce qui augmenterait théoriquement les performances du framework par rapport à ces concurrents.
+
+## Lancement 
+
+```
+cd svelte
+npm install
+npm run dev
+```
